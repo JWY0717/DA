@@ -6,14 +6,14 @@ from sklearn.metrics import r2_score, mean_squared_error
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 
-# 
-data = pd.read_csv('ship_location.csv')
+data = pd.read_csv('ais.csv')
     
 # 풍향,유향,기온,풍속,유속,기압,습도 를 독립 변수
-X = data[['temperature', 'wind_speed', 'wave_height']]
+X = data[[]]
 
 # 선박의 위치(위도, 경도)를 종속 변수
-y = data['ship_speed']
+y = data['posX',' posY']
+
     
 # 데이터 셋 분리
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
