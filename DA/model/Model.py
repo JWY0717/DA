@@ -4,12 +4,3 @@
 import pandas as pd
 import csv
 
-
-excel02_file = 'D:/장우영/LOCALSEARCH/DA/log.csv'
-
-df = pd.read_excel(excel02_file)
-#   print(df.shape)
-
-# 데이터 확인 
-
-print(df.head(1))
