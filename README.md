@@ -19,6 +19,9 @@
 - pip pandas
 - pip seaborn
 - pip tensorflow
+- train_test_splitfrom sklearn.model_selection,
+- MinMaxScalerfrom sklearn.preprocessing, 
+- Sequentialand Densefrom tensorflow.keras.layers, 
 ```
 
 
